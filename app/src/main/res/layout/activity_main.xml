@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtsisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="16dp"
+        android:text="Masukkan Panjang Pesegi" />
+
+    <EditText
+        android:id="@+id/editSisi"
+        android:layout_width="329dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtsisi"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="33dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="89dp"
+        android:text="Oke" />
+
+    <TextView
+        android:id="@+id/txtluas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editSisi"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="154dp"
+        android:text="Luas Persegi" />
+
+    <EditText
+        android:id="@+id/edithasil"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtsisi"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="182dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtkeliling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtsisi"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="241dp"
+        android:text="Keliling Persegi" />
+
+    <EditText
+        android:id="@+id/editkeliling"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtkeliling"
+        android:layout_alignStart="@+id/txtsisi"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>
